@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/BengaliPlagiarismChecker/__init__.py
+src/BengaliPlagiarismChecker/corpus.db
+src/BengaliPlagiarismCheckerTool.egg-info/PKG-INFO
+src/BengaliPlagiarismCheckerTool.egg-info/SOURCES.txt
+src/BengaliPlagiarismCheckerTool.egg-info/dependency_links.txt
+src/BengaliPlagiarismCheckerTool.egg-info/not-zip-safe
+src/BengaliPlagiarismCheckerTool.egg-info/top_level.txt

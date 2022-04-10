@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: BengaliPlagiarismCheckerTool
+Version: 0.0.1
+Summary: A package for plagiarism detection on Bengali texts.
+Home-page: https://github.com/Bengali-Plagiarism-Tool/Bengali-Plagiarism-Checker-pip
+Author: Satyajit Ghosh
+Author-email: satyajit.ghosh@outlook.in
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Bengali-Plagiarism-Tool/Bengali-Plagiarism-Checker-pip/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Bengali
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Bengali Plagiarism Checker
+
+Bengali Plagiarism Checker library contains database of 200 books with over 4100 pages in it for detection of plagiarism in Bengali texts. This library is based on a paper titled "Plagiarism Detection in the Bengali Language: A Text Similarity-Based Approach".
+<br>
+<b>Cite the paper as :</b><br>
+Ghosh, S., Ghosh, A., Ghosh, B., & Roy, A. (2022). Plagiarism Detection in the Bengali Language: A Text Similarity-Based Approach. arXiv preprint arXiv:2203.13430.
+<hr>
+<br>
+
+## Sample Usage
+
+```
+import BengaliPlagiarismChecker as bpc #importing package
+
+#input text
+text="""
+
+বসন্তাগমে কামিনী রায় বসন্ত কি সহসা এ নির্জন আবাসে পশিয়াছ চুপি চুপি? নবীন পল্পবে
+সাজিয়াছে তরুরাজি। ঝেড়ে দিলে কবে পুরাতন জীর্ণপত্র শীতল বাতাসে বাতাবি ফুলের গন্ধ ধীরে ধীরে ভেসে আসে আমার গবাক্ষপথে ঘন কুহুরবে মুখরিত আম্রবন বসন্তই হবে উদ্যান উজ্জল শত শ্বেত পুস্প হাসে আজিও ধরনি মরে রেখেছে ধরিয়া তার স্বর্ণ কারাগারে বর্ণ গন্ধ গানে রসে স্পর্শে দিতে চাহে দেহে আর চিতে নব প্রাণ, কিন্তু হায় নিঃশেষে ভরিয়া কই দিতে পারে, মধু? দূরে কোন্খানে থাকে অদেহীরা, বধু, পারো বলে দিতে?
+
+"""
+#method to find out plagiarism
+bpc.check(text)
+
+'''
+OUTPUT
+
+[[194, #BookID
+  'State Council of Educational Research and Training (SCERT)', #Author or Publisher
+  'সাহিত্য মালঞ্চ', #Book name
+  14,  # Page number
+  23.88]] #Similarity Score
+
+
+'''
+
+```
+<hr>
+<br>
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
