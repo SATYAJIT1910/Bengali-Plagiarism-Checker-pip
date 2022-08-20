@@ -3,7 +3,28 @@
 Bengali Plagiarism Checker library contains database of 200 books with over 4100 pages in it for detection of plagiarism in Bengali texts. This library is based on a paper titled "Plagiarism Detection in the Bengali Language: A Text Similarity-Based Approach".
 <br>
 <b>Cite the paper as :</b><br>
-Ghosh, S., Ghosh, A., Ghosh, B., & Roy, A. (2022). Plagiarism Detection in the Bengali Language: A Text Similarity-Based Approach. arXiv preprint arXiv:2203.13430.
+```
+@misc{https://doi.org/10.48550/arxiv.2203.13430,
+  doi = {10.48550/ARXIV.2203.13430},
+  
+  url = {https://arxiv.org/abs/2203.13430},
+  
+  author = {Ghosh, Satyajit and Ghosh, Aniruddha and Ghosh, Bittaswer and Roy, Abhishek},
+  
+  keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Plagiarism Detection in the Bengali Language: A Text Similarity-Based Approach},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+```
+
+
+
 <hr>
 <br>
 
