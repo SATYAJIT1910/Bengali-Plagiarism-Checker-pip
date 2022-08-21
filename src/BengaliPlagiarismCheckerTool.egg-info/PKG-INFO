@@ -1,13 +1,11 @@
 Metadata-Version: 2.1
 Name: BengaliPlagiarismCheckerTool
-Version: 0.0.1
+Version: 0.0.2
 Summary: A package for plagiarism detection on Bengali texts.
-Home-page: https://github.com/Bengali-Plagiarism-Tool/Bengali-Plagiarism-Checker-pip
+Home-page: https://github.com/SATYAJIT1910/Bengali-Plagiarism-Checker-pip
 Author: Satyajit Ghosh
 Author-email: satyajit.ghosh@outlook.in
-License: UNKNOWN
-Project-URL: Bug Tracker, https://github.com/Bengali-Plagiarism-Tool/Bengali-Plagiarism-Checker-pip/issues
-Platform: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/SATYAJIT1910/Bengali-Plagiarism-Checker-pip/issues
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved
 Classifier: Operating System :: OS Independent
@@ -21,7 +19,28 @@ License-File: LICENSE
 Bengali Plagiarism Checker library contains database of 200 books with over 4100 pages in it for detection of plagiarism in Bengali texts. This library is based on a paper titled "Plagiarism Detection in the Bengali Language: A Text Similarity-Based Approach".
 <br>
 <b>Cite the paper as :</b><br>
-Ghosh, S., Ghosh, A., Ghosh, B., & Roy, A. (2022). Plagiarism Detection in the Bengali Language: A Text Similarity-Based Approach. arXiv preprint arXiv:2203.13430.
+```
+@misc{https://doi.org/10.48550/arxiv.2203.13430,
+  doi = {10.48550/ARXIV.2203.13430},
+  
+  url = {https://arxiv.org/abs/2203.13430},
+  
+  author = {Ghosh, Satyajit and Ghosh, Aniruddha and Ghosh, Bittaswer and Roy, Abhishek},
+  
+  keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Plagiarism Detection in the Bengali Language: A Text Similarity-Based Approach},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+```
+
+
+
 <hr>
 <br>
 
@@ -56,4 +75,3 @@ OUTPUT
 <hr>
 <br>
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-

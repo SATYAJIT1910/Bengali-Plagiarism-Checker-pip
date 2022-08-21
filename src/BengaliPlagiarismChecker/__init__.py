@@ -5,7 +5,7 @@ import re
 from pkg_resources import resource_filename
 
 # Connects to database
-mydb = sqlite3.connect(resource_filename(__name__, 'corpus.db'))
+mydb = sqlite3.connect(resource_filename(__name__, 'corpus.db'),check_same_thread=False)
 
 __bangla_stopwords = ["অতএব",
                     "অথচ",
