@@ -1,28 +1,9 @@
 # Bengali Plagiarism Checker
 
-Bengali Plagiarism Checker library contains database of 200 books with over 4100 pages in it for detection of plagiarism in Bengali texts. This library is based on a paper titled "Plagiarism Detection in the Bengali Language: A Text Similarity-Based Approach".
-<br>
-<b>Cite the paper as :</b><br>
+Introducing a Python library for detecting plagiarism in Bengali texts. This library comprises 200 Bengali books with approximately 4100 pages sourced from the National Digital Library, processed using the Tesseract OCR engine. With just two lines of code, you can check for similarities in Bengali written content. If a high degree of similarity is found, it will display the book title, author name, and other details. You can install the library using the following command in the terminal: 
 ```
-@misc{https://doi.org/10.48550/arxiv.2203.13430,
-  doi = {10.48550/ARXIV.2203.13430},
-  
-  url = {https://arxiv.org/abs/2203.13430},
-  
-  author = {Ghosh, Satyajit and Ghosh, Aniruddha and Ghosh, Bittaswer and Roy, Abhishek},
-  
-  keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  
-  title = {Plagiarism Detection in the Bengali Language: A Text Similarity-Based Approach},
-  
-  publisher = {arXiv},
-  
-  year = {2022},
-  
-  copyright = {Creative Commons Attribution 4.0 International}
-}
+pip install BengaliPlagiarismChecker
 ```
-
 
 
 <hr>
